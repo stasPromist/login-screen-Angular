@@ -10865,6 +10865,11 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
+.bg-image2 {
+  background: url("../images/logout.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 .bg-register-image {
   background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
