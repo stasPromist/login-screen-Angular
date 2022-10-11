@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { IfUserLogin } from './services/auth-guard.service';
+import { FirebaseComponent } from './components/firebase/firebase.component';
+
 
 
 @NgModule({
@@ -16,11 +18,13 @@ import { IfUserLogin } from './services/auth-guard.service';
     AppComponent,
     LoginComponent,
     DashboardComponent,
+    FirebaseComponent,
  
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule,
     FormsModule,
     AppRoutingModule,
     NgbModule

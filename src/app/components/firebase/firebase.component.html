@@ -1,0 +1,18 @@
+<!-- <p>firebase works!</p> -->
+<!-- <p *ngFor="let image of images"><img style="width:1000px ; height:1000px" [ngClass]="image.download_url" ></p>  -->
+<!-- <img [src]="api"> -->
+<!-- <p *ngFor="let image of images">{{image.download_url}}</p>  -->
+<p class="aligncenter"><img style="width:500px; height:500px" *ngFor="let image of images" [src]="image.download_url">
+    </p>
+<!-- <div class="gal-list-view">
+    <div style="margin: 20px">
+        <div class="responsive" style="margin: 20px">
+            <div class="gallery" *ngFor="let image of images | async">
+              <a target="_blank">
+                <img src="{{image.url}}" alt="" width="600" height="400">
+              </a>
+              <div class="desc">Img Title</div>
+            </div>
+        </div>         
+    </div>
+  </div> -->
